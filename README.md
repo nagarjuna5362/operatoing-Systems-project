@@ -84,7 +84,7 @@ Copy `.env.example` to `.env` and set your API key:
 # Google Gemini (default provider)
 LLM_PROVIDER=google
 GOOGLE_API_KEY=your_api_key_here
-GEMINI_MODEL=gemini-3.8-flash
+GEMINI_MODEL=gemini-2.5-flash
 ```
 
 **Get a free Gemini API key:** https://aistudio.google.com/apikey
@@ -96,7 +96,7 @@ GEMINI_MODEL=gemini-3.8-flash
 | `LLM_PROVIDER` | `google` | LLM provider (`google` or `openai`) |
 | `GOOGLE_API_KEY` | — | Google Gemini API key |
 | `OPENAI_API_KEY` | — | OpenAI API key |
-| `GEMINI_MODEL` | `gemini-3.8-flash` | Gemini model name |
+| `GEMINI_MODEL` | `gemini-2.5-flash` | Gemini model name |
 | `OPENAI_MODEL` | `gpt-4o-mini` | OpenAI model name |
 | `COMMAND_TIMEOUT` | `10` | Max seconds for system commands |
 | `MASK_SERIALS` | `false` | Mask serial numbers in output |
